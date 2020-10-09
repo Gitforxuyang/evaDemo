@@ -1,0 +1,21 @@
+
+syntax = "proto3";
+
+package evaDemo;
+
+message Nil {
+}
+message HelloReq{
+    string name=1;
+    int32 age=2;
+//    message Content{
+//        string c1=1;
+//        int32 c2=2;
+//    }
+//    Content c=3;
+}
+service EvaDemo {
+    rpc Ping (Nil) returns (Nil);
+    rpc Hello (HelloReq) returns (Nil);
+}
+	

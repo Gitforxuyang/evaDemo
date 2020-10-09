@@ -1,0 +1,11 @@
+
+{
+  "name": "evaDemo",
+  "port": 31005,
+  "version": "0.0.2",
+  "log": {
+    "server": true,
+    "grpcClient": true,
+    "httpClient": true
+  }
+}
